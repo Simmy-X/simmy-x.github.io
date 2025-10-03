@@ -1,0 +1,62 @@
+/* 1) 导入字体：衬线= Merriweather，正文= Times New Roman；含中文回退 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:wght@300;400;700&display=swap');
+
+:root{
+  /* 2) 全站字体与颜色变量（Bootstrap 变量） */
+  --bs-font-sans-serif: "Times New Roman", system-ui, -apple-system, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --headings-font: "Merriweather", "Noto Serif SC", "Songti SC", serif;
+  --heading-color: #2e4f97; /* 类似示例页的蓝色 */
+}
+
+/* 3) 标题样式：衬线 + 蓝色 + 稍重字重 */
+h1, h2, h3, .quarto-title h1.title{
+  font-family: var(--headings-font);
+  color: var(--heading-color);
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+h1, .quarto-title h1.title{ font-size: 2.4rem; }
+h2{ font-size: 1.8rem; margin-top: 2rem; }
+
+/* 4) 正文行高/灰度 */
+body{ line-height: 1.65; color: #1; }
+p{ font-size: 1.05rem; }
+
+/* 5) 分割线细一点 */
+hr{ opacity: .15; }
+
+/* 6) 顶部 Hero 与头像（下节会用到） */
+.hero {
+  display: flex; gap: 28px; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; margin-bottom: 10px;
+}
+.hero h3{ margin: 6px 0 8px; color: #4a4a4a; font-weight: 700; }
+.avatar{
+  width: 220px; height: 220px; border-radius: 50%; object-fit: cover;
+  box-shadow: 0 8px 26px rgba(0,0,0,.08);
+}
+
+/* 7) 如果你更想要右侧“横幅”大图，而不是圆形头像：把 .avatar 换成 .banner */
+.banner{
+  width: 420px; border-radius: 10px; object-fit: cover;
+  box-shadow: 0 10px 28px rgba(0,0,0,.08);
+}
+
+/* 8) 论文卡片（可选） */
+.pub{
+  display: grid; grid-template-columns: 150px 1fr; gap: 18px;
+  padding: 16px; border: 1px solid #eee; border-radius: 12px; margin: 14px 0; background:#fff;
+}
+.pub img{ width:150px; height:100px; object-fit:cover; border-radius:8px; }
+.pub .btn{
+  display:inline-block; padding:4px 10px; border:1px solid #ddd; border-radius:8px;
+  text-decoration:none; margin-right:8px; font-size:.95rem;
+}
+.pub .btn:hover{ background:#f7f7f7; }
+
+@media (max-width: 640px){
+  .avatar{ width:140px; height:140px; }
+  .banner{ width:100%; }
+  .pub{ grid-template-columns: 1fr; }
+}

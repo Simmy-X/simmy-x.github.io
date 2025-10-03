@@ -1,0 +1,16 @@
+project:
+  type: website
+
+website:
+  title: "Simin Xu"
+  navbar: false
+  page-footer:
+    left: "© 2025 Simin Xu"
+
+format:
+  html:
+    theme: litera
+    toc: false
+    css: styles.css
+    sanitize: false   # 关键：允许原生 HTML 渲染
+

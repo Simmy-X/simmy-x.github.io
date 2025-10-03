@@ -1,0 +1,54 @@
+---
+title: "Simin Xu"
+---
+
+<div class="hero">
+<div>
+<h3>Postdoctoral Researcher</h3>
+ENCODE Lab, School of Engineering  
+Westlake University, 310030  
+Hangzhou, Zhejiang, China.
+<p>
+Email: <a href="mailto:xusimin@westlake.edu.cn">xusimin@westlake.edu.cn</a> ·
+<a href="https://scholar.google.com/citations?user=-9lGlGwAAAAJ">Google Scholar</a> ·
+<a href="https://github.com/yourname">GitHub</a>
+</p>
+</div>
+<img class="avatar" src="images/me.jpg" alt="portrait">
+</div>
+
+## Biography
+I am a postdoctoral researcher focusing on efficient AI for resource-constrained devices.
+I received my B.E. from **Dalian University of Technology**, and my M.S. and Ph.D. from **Shanghai Jiao Tong University**. During my master’s studies, I also completed a joint program at the **University of Toronto**, earning a second M.S. degree.
+
+My research interests include person re-identification, object detection and efficient AI methods.
+
+## Selected Publications
+::: {.pub}
+<img src="images/papers/MGAiA.png" alt="thumb">
+<div>
+  <b>Multi-granularity attention in attention for person re-identification in
+aerial images</b><br>
+  <u>Simin Xu</u>, Lingkun Luo, Haichao Hong, Jilin Hu, Bin Yang, Shiqiang Hu<br>
+  The Visual Computer, 2024   <a class="btn" href="papers/MGAiA.pdf">PDF</a>
+</div>
+:::
+
+::: {.pub}
+<img src="images/papers/SDAAL.png" alt="thumb">
+<div>
+  <b>Semantic driven attention network with attribute learning for unsupervised person re-identification</b><br>
+  <u>Simin Xu</u>, Lingkun Luo, Jilin Hu, Bin Yang, Shiqiang Hu<br>
+  Knowledge-Based Systems, 2022   <a class="btn" href="papers/Semantic driven attention network with attribute learning for unsupervised person re-identification.pdf">PDF</a>
+</div>
+:::
+
+::: {.pub}
+<img src="images/papers/AMAC.png" alt="thumb">
+<div>
+  <b>Attention-based Model with Attribute Classification for Cross-domain Person Re-identification</b><br>
+  <u>Simin Xu</u>, Lingkun Luo, Shiqiang Hu<br>
+  International Conference on Pattern Recognition, 2021   <a class="btn" href="papers/Attention-based Model with Attribute Classification for Cross-domain Person Re-identification.pdf">PDF</a>
+</div>
+:::
+
